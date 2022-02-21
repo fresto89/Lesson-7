@@ -1,0 +1,97 @@
+/* &display=swap */
+
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+/* ================================================================ */
+.wrapper {
+	min-height: 100%;
+	max-width: 810px;
+	overflow: hidden;
+	margin: 0px auto;
+}
+/* ================================================================ */
+
+body {
+	font-family: "Lato", sans-serif;
+	line-height: 160%;
+	color: #424551;
+}
+
+.big__header {
+	margin: 0px 0px 40px 0px;
+}
+
+.main__title {
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 130%;
+	color: #1e212c;
+	margin: 0px 0px 26px 0px;
+}
+
+.header__icon {
+	font-size: 0px;
+}
+
+.calendar {
+	display: inline-block;
+	font-size: 16px;
+	color: #787a80;
+	background: url("../img/icon_calendar.svg") 0px 6px no-repeat;
+	padding: 0px 0px 0px 24px;
+	margin: 0px 24px 0px 0px;
+}
+
+.clock {
+	display: inline-block;
+	font-size: 16px;
+	color: #787a80;
+	background: url("../img/icon_clock.svg") 0 6px no-repeat;
+	padding: 0px 0px 0px 24px;
+}
+
+.top__block {
+	margin: 0px 0px 48px 0px;
+}
+
+.top-img__block {
+	margin: 0px 0px 60px 0px;
+}
+
+.top-paragraph-1__block {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 150%;
+	color: #1e212c;
+	margin: 0px 0px 24px 0px;
+}
+
+.top-paragraph-2__block {
+	margin: 0px 0px 40px 0px;
+}
+
+.center__block {
+	margin: 0px 0px 24px 0px;
+}
+
+.center-paragraph-1__block {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 150%;
+	color: #1e212c;
+	background: url("../img/icon_pillar.svg") 0 0 no-repeat, url("../img/icon_pillar.svg") 18px 0 no-repeat;
+	padding: 0px 0px 0px 58px;
+	margin: 0px 0px 48px 0px;
+}
+
+.main__list {
+	margin: 0px 0px 24px 0px;
+}
+
+.bottom__list {
+	background: url("../img/icon_list.svg") 0 5px / 16px no-repeat;
+	min-height: 16px;
+	padding: 0px 0px 0px 32px;
+}

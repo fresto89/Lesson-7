@@ -1,0 +1,72 @@
+/* &display=swap */
+
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+/* ================================================================ */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ================================================================ */
+
+body {
+	font-family: "Lato", sans-serif;
+	color: #424551;
+}
+
+.big__header {
+	margin: 0px 0px 40px 0px;
+}
+
+.paragraph-1__header {
+	font-weight: 700;
+	line-height: 150%;
+	text-transform: uppercase;
+	color: #1e212c;
+	margin: 0px 0px 8px 0px;
+}
+
+.big__title {
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 130%;
+	color: #1e212c;
+}
+
+.main__block {
+	margin: 0px 0px 22px 0px;
+}
+
+.list__block-1 {
+	max-width: 390px;
+}
+
+.block-1,
+.li {
+	line-height: 160%;
+	background: url("../img/icon_list.svg") 0px 5px / 16px no-repeat;
+	min-height: 16px;
+	padding: 0px 0px 0px 32px;
+}
+
+.list-1,
+.list-2,
+.list-3,
+.list-4,
+.list-5 {
+	margin: 0px 0px 12px 0px;
+}
+
+.button-1 {
+	display: inline-block;
+	padding: 0px 32px;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 314%;
+	text-align: center;
+	color: #ffffff;
+	border-radius: 4px;
+	background: linear-gradient(114deg, rgba(255, 63, 58, 1) 0%, rgba(247, 94, 5, 1) 100%);
+}
